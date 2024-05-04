@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script src="https://kit.fontawesome.com/d3a1b40e2e.js" crossorigin="anonymous"></script>
     <title>Login</title>
 </head>
 
@@ -16,20 +17,20 @@
             <div class="card-body">
                 <h2 class="card-title mb-4 text-3xl">Login</h2>
                 <div class="join mb-4">
-                    <button class="join-item btn btn-primary"></button>
+                    <button class="join-item btn btn-primary"><i class="fa-solid fa-envelope"></i></button>
                     <input class="input input-bordered join-item" placeholder="Email" />
                 </div>
                 <div class="join mb-4">
-                    <button class="join-item btn btn-primary"></button>
+                    <button class="join-item btn btn-primary"><i class="fa-solid fa-key"></i></button>
                     <input class="input input-bordered join-item" placeholder="Password" />
                 </div>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-primary">login</button>
+                <div class="card-actions justify-center">
+                    <button class="btn btn-primary">Login</button>
                 </div>
             </div>
             <div class="">
                 <figure><img src="{{ asset('img/jointeam.jpeg') }}" alt="Album"
-                        class="lg:block lg:h-96 rounded-r-xl sm:hidden" />
+                        class="lg:block md:h-80 lg:h-80 rounded-r-xl hidden" />
                 </figure>
             </div>
         </div>
