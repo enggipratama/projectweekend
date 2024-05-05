@@ -14,6 +14,7 @@ export default {
             "base": "#DBD5CD",
             "textbase": "#222",
             "warning": "#fa5d29",
+            "danger": "#E04F5F",
         },
         extend: {
             fontFamily: {
