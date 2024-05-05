@@ -10,6 +10,11 @@ export default {
     ],
 
     theme: {
+        colors: {
+            "base": "#DBD5CD",
+            "textbase": "#222",
+            "warning": "#fa5d29",
+        },
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
@@ -17,5 +22,8 @@ export default {
         },
     },
 
-    plugins: [forms],
+    plugins: [
+        require('daisyui'),
+        forms,
+    ],
 };
