@@ -11,7 +11,7 @@
                     <a class="text-sm font-bold text-base underline" href="{{ route('login') }}">Login</a>
                 </div>
             </div>
-            <div class="card-body justify-center">
+            <div class="card-body justify-center w-96">
                 <form method="POST" action="{{ route('register') }}">
                     <div class="divider">
                         <h1 class="text-2xl font-bold text-textbase mb-4">Register</h1>
