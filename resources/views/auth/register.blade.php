@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="min-h-screen flex flex-col sm:justify-center items-center p-10 sm:pt-0">
+    <div class="min-h-screen flex flex-col sm:justify-center items-center p-6 sm:pt-0">
         <div class="card lg:card-side shadow-xl bg-base">
             <div class="card-body bg-textbase rounded-xl">
                 <h1 class="text-2xl font-bold text-base">Welcome!</h1>
@@ -11,7 +11,7 @@
                     <a class="text-sm font-bold text-base underline" href="{{ route('login') }}">Login</a>
                 </div>
             </div>
-            <div class="card-body justify-center w-100">
+            <div class="card-body justify-center">
                 <form method="POST" action="{{ route('register') }}">
                     <div class="divider">
                         <h1 class="text-2xl font-bold text-textbase mb-4">Register</h1>
@@ -43,28 +43,29 @@
                     </div>
 
                     <!-- Password -->
-                    <div class="mt-4 flex gap-2">
+                    <div class="mt-4 flex lg:flex-row gap-2">
                         <div class="text-left">
                             <x-input-label for="password" :value="__('Password')" />
 
-                            <x-text-input id="password" class="block mt-1" type="password" name="password" required
-                                autocomplete="new-password" />
+                            <x-text-input id="password" class="block mt-1 w-full" type="password" name="password"
+                                required autocomplete="new-password" />
 
                             <x-input-error :messages="$errors->get('password')" class="mt-2" />
                         </div>
                         <!-- Confirm Password -->
                         <div class="text-left">
-                            <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
+                            <x-input-label for="password_confirmation" :value="__('Confirm Pass')" />
 
-                            <x-text-input id="password_confirmation" class="block mt-1" type="password"
+                            <x-text-input id="password_confirmation" class="block mt-1 w-full" type="password"
                                 name="password_confirmation" required autocomplete="new-password" />
 
                             <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
                         </div>
                     </div>
 
-                    <div class="flex items-center justify-center p-5">
-                        <x-primary-button class="ms-4">
+
+                    <div class="flex flex-col lg:flex-row gap-2 mt-4 items-center justify-center">
+                        <x-primary-button class="">
                             {{ __('Register') }}
                         </x-primary-button>
                     </div>
