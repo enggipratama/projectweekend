@@ -5,13 +5,12 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
-        <div class="max-w-2xl mx-auto p-6 sm:px-6 lg:px-8 space-y-6 mt-10">
-            <div class="bg-base dark:bg-gray-800 overflow-hidden sm:rounded-xl rounded-xl">
-                <div class="p-6 font-bold text-textbase dark:text-textbase">
-                    {{ __('Hello, Wellcome') }} {{ Auth::user()->name }}
-                </div>
-            </div>
+    <div class="py-12 bg-textbase">
+        <div class="grid grid-cols-1 gap-4 mt-5 p-4">
+            @include('dashboard.partials.homepage')
+        </div>
+        <div class="grid grid-cols-1 gap-4 mt-5">
+            @include('layouts.footer')
         </div>
     </div>
 </x-app-layout>
