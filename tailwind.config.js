@@ -12,7 +12,9 @@ export default {
     theme: {
         colors: {
             "base": "#DBD5CD",
-            "textbase": "#222",
+            "cardbase": "#1d1f27",
+            "borderbase":"#2f323d",
+            "textbase": "#13151a",
             "warning": "#fa5d29",
             "danger": "#E04F5F",
         },
