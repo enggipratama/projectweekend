@@ -31,7 +31,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.6);
             /* Latar belakang transparan */
             border-radius: 10px;
             /* Atur radius sudut sesuai kebutuhan */
@@ -45,19 +45,12 @@
 
         .button-container {
             position: absolute;
-            top: 50%;
+            top: 80%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
 
-        .center-button {
-            background-color: #DBD5CD;
-            color: #13151a ;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
+        
     </style>
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])

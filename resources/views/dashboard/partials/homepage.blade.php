@@ -79,10 +79,10 @@
             <img class="image" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
             <div class="overlay">
                 <div class="button-container">
-                    <button class="center-button hover:bg-textbase hover:text-base">Details</button>
+                    <button class=" btn btn-sm bg-base text-textbase border-base hover:text-sm hover:bg-textbase hover:text-base hover:border-textbase">Details</button>
                 </div>
-                <div class="card-body text-base">
-                    <h2 class="card-title">Judul Portofolio/Project</h2>
+                <div class="p-2 text-base text-sm xs:text-xs">
+                    <h class="">Judul Portofolio/Project</h>
                     <p>Deskripsi</p>
                 </div>
             </div>
@@ -91,10 +91,10 @@
             <img class="image" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
             <div class="overlay">
                 <div class="button-container">
-                    <button class="center-button hover:bg-textbase hover:text-base">Details</button>
+                    <button class=" btn btn-sm bg-base text-textbase border-base hover:text-sm hover:bg-textbase hover:text-base hover:border-textbase">Details</button>
                 </div>
-                <div class="card-body text-base">
-                    <h2 class="card-title">Judul Portofolio/Project</h2>
+                <div class="p-2 text-base text-sm xs:text-xs">
+                    <h class="">Judul Portofolio/Project</h>
                     <p>Deskripsi</p>
                 </div>
             </div>
@@ -103,10 +103,10 @@
             <img class="image" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
             <div class="overlay">
                 <div class="button-container">
-                    <button class="center-button hover:bg-textbase hover:text-base">Details</button>
+                    <button class=" btn btn-sm bg-base text-textbase border-base hover:text-sm hover:bg-textbase hover:text-base hover:border-textbase">Details</button>
                 </div>
-                <div class="card-body text-base">
-                    <h2 class="card-title">Judul Portofolio/Project</h2>
+                <div class="p-2 text-base text-sm xs:text-xs">
+                    <h class="">Judul Portofolio/Project</h>
                     <p>Deskripsi</p>
                 </div>
             </div>
@@ -115,10 +115,10 @@
             <img class="image" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
             <div class="overlay">
                 <div class="button-container">
-                    <button class="center-button hover:bg-textbase hover:text-base">Details</button>
+                    <button class=" btn btn-sm bg-base text-textbase border-base hover:text-sm hover:bg-textbase hover:text-base hover:border-textbase">Details</button>
                 </div>
-                <div class="card-body text-base">
-                    <h2 class="card-title">Judul Portofolio/Project</h2>
+                <div class="p-2 text-base text-sm xs:text-xs">
+                    <h class="">Judul Portofolio/Project</h>
                     <p>Deskripsi</p>
                 </div>
             </div>
@@ -127,10 +127,10 @@
             <img class="image" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
             <div class="overlay">
                 <div class="button-container">
-                    <button class="center-button hover:bg-textbase hover:text-base">Details</button>
+                    <button class=" btn btn-sm bg-base text-textbase border-base hover:text-sm hover:bg-textbase hover:text-base hover:border-textbase">Details</button>
                 </div>
-                <div class="card-body text-base">
-                    <h2 class="card-title">Judul Portofolio/Project</h2>
+                <div class="p-2 text-base text-sm xs:text-xs">
+                    <h class="">Judul Portofolio/Project</h>
                     <p>Deskripsi</p>
                 </div>
             </div>
@@ -139,10 +139,10 @@
             <img class="image" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
             <div class="overlay">
                 <div class="button-container">
-                    <button class="center-button hover:bg-textbase hover:text-base">Details</button>
+                    <button class=" btn btn-sm bg-base text-textbase border-base hover:text-sm hover:bg-textbase hover:text-base hover:border-textbase">Details</button>
                 </div>
-                <div class="card-body text-base">
-                    <h2 class="card-title">Judul Portofolio/Project</h2>
+                <div class="p-2 text-base text-sm xs:text-xs">
+                    <h class="">Judul Portofolio/Project</h>
                     <p>Deskripsi</p>
                 </div>
             </div>
